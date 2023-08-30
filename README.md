@@ -8,7 +8,7 @@ PENN's inroduced loss function has two parts. The first part of the equation is 
 
 where L<sup>g</sup> is the average level, A<sup>g</sup> is the amplitude, φ<sup>g</sup> is the phase shift and 2π/ω is the period of the g-th eigen-gene. L<sup>g</sup>, A<sup>g</sup>,φ<sup>g</sup> and ω<sup>g</sup> are learnable variables given some initial values and they will be trained through the network. x<sup>^</sup><sub>i</sub> is the output of the auto-encoder for sample i and x<sup>(g)</sup><sub>i</sub> is the input value for gene g and sample i. φ<sup>^</sup><sub>i</sub> is the predicted phase for sample i. λ is a balancing factor. 
 
-This repository contains a Keras implemented version of the PENN. We have tested our method on Mouse liver[GSE11923](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11923), mouse heart[GES54650](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54650) and human temporal cortex data[GSE131617](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131617). In this repository, we have provided the code on mouse liver data.
+This repository contains a Keras implemented version of the PENN. We have tested our method on Mouse liver [GSE11923](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11923), mouse heart [GES54650](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54650) and human temporal cortex data [GSE131617](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131617). In this repository, we have provided the code on mouse liver data.
 
 ## Dataset
 
