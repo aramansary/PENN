@@ -10,6 +10,11 @@ where L<sup>g</sup> is the average level, A<sup>g</sup> is the amplitude, φ<sup
 
 This repository contains a Keras implemented version of the PENN. We have tested our method on Mouse liver[GSE11923](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11923), mouse heart[GES54650](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54650) and human temporal cortex data[GSE131617](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131617). In this repository, we have provided the code on mouse liver data.
 
-## DATASET
+## Dataset
 
 The dataset has been saved in csv format where rows are samples and columns represent the genes. On human dataset, then you can find seed genes (known cyclic genes) either directly using the seed genes provided by CYCLOPS or some pre-processing methods to find potential cyclic genes. On mouse dataset, finding seed genes is optional and not necessarily needed based on our experiments. Data is then normalized using z-score normalization. After normalization, PCA is used for dimensionality reduction and finding eigen-genes. 
+
+## Contacts
+If you have any questions or you would like us to provide you with more data, seed genes or any other resources, please reach us through our emails:
+
+Aram Ansary Ogholbale (aram.ansary@uky.edu) and Qiang Cheng (qiang.cheng@uky.edu).
