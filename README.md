@@ -1,5 +1,5 @@
 # PENN (DBB2023)
-Phase Estimation Neural Network on Gene Expression Data (PENN) is a deep learning based method designed for the prediction of unordered gene expression data. 
+Phase Estimation Neural Network on Gene Expression Data ([PENN](https://www.researchgate.net/publication/372093452_PENN_Phase_Estimation_Neural_Network_on_Gene_Expression_Data)) is a deep learning based method designed for the prediction of unordered gene expression data. 
 The architecture of this network is based on the CYCLOPS. However, PENN incorporates the potential periodic oscillation information of the cyclic genes into the objective function to regulate the phase estimation.
 
 PENN's inroduced loss function has two parts. The first part of the equation is the error of fitting observations with the cosine curve using predicted phases considering each gene's geometry. The second part of the loss function is the auto-encoder reconstruction loss.
@@ -13,6 +13,12 @@ This repository contains a Keras implemented version of the PENN. We have tested
 ## Dataset
 
 The dataset has been saved in csv format where rows are samples and columns represent the genes. On human dataset, then you can find seed genes (known cyclic genes) either directly using the seed genes provided by CYCLOPS or some pre-processing methods to find potential cyclic genes. On mouse dataset, finding seed genes is optional and not necessarily needed based on our experiments. Data is then normalized using z-score normalization. After normalization, PCA is used for dimensionality reduction and finding eigen-genes. 
+
+## How to cite
+
+If you find this repository useful in your work, please consider citing it:
+
+Ansary Ogholbake A, Cheng Q (2023). PENN: Phase Estimation Neural Network on Gene Expression Data. The 4th International Joint Conference on Deep Learning, Big Data and Blockchain (DBB 2023), August 14-16, 2023, Online and Marrakech, Morocco.
 
 ## Contacts
 If you have any questions or you would like us to provide you with more data, seed genes or any other resources, please reach us through our emails:
