@@ -8,4 +8,8 @@ PENN's inroduced loss function has two parts. The first part of the equation is 
 
 where L<sup>g</sup> is the average level, A<sup>g</sup> is the amplitude, φ<sup>g</sup> is the phase shift and 2π/ω is the period of the g-th eigen-gene. L<sup>g</sup>, A<sup>g</sup>,φ<sup>g</sup> and ω<sup>g</sup> are learnable variables given some initial values and they will be trained through the network. x<sup>^</sup><sub>i</sub> is the output of the auto-encoder for sample i and x<sup>(g)</sup><sub>i</sub> is the input value for gene g and sample i. φ<sup>^</sup><sub>i</sub> is the predicted phase for sample i. λ is a balancing factor. 
 
-This repository contains a Keras implemented version of the PENN on mouse liver data [GSE11923](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11923).
+This repository contains a Keras implemented version of the PENN. We have tested our method on Mouse liver[GSE11923](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11923), mouse heart[GES54650](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54650) and human temporal cortex data[GSE131617](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131617). In this repository, we have provided the code on mouse liver data.
+
+## DATASET
+
+The dataset has been saved in csv format where rows are samples and columns represent the genes. On human dataset, then you can find seed genes (known cyclic genes) either directly using the seed genes provided by CYCLOPS or some pre-processing methods to find potential cyclic genes. On mouse dataset, finding seed genes is optional and not necessarily needed based on our experiments. Data is then normalized using z-score normalization. After normalization, PCA is used for dimensionality reduction and finding eigen-genes. 
