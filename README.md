@@ -18,6 +18,7 @@ The dataset has been saved in csv format where rows are samples and columns repr
 
 If you find this repository useful in your work, please consider citing it:
 
+```bibtex
 @inproceedings{ansary2023penn,
   title={PENN: Phase Estimation Neural Network on Gene Expression Data},
   author={Ansary Ogholbake, Aram and Cheng, Qiang},
