@@ -27,8 +27,8 @@ If you find this repository useful in your work, please consider citing it:
   year={2023},
   organization={Springer}
 }
-
-## Contacts
+```
+## Contact
 If you have any questions or you would like us to provide you with more data, seed genes or any other resources, please reach us through our emails:
 
 Aram Ansary Ogholbale (aram.ansary@uky.edu) and Qiang Cheng (qiang.cheng@uky.edu).
