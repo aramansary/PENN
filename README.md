@@ -18,7 +18,14 @@ The dataset has been saved in csv format where rows are samples and columns repr
 
 If you find this repository useful in your work, please consider citing it:
 
-Ansary Ogholbake A, Cheng Q (2023). PENN: Phase Estimation Neural Network on Gene Expression Data. The 4th International Joint Conference on Deep Learning, Big Data and Blockchain (DBB 2023), August 14-16, 2023, Online and Marrakech, Morocco.
+@inproceedings{ansary2023penn,
+  title={PENN: Phase Estimation Neural Network on Gene Expression Data},
+  author={Ansary Ogholbake, Aram and Cheng, Qiang},
+  booktitle={The International Conference on Deep Learning, Big Data and Blockchain},
+  pages={59--67},
+  year={2023},
+  organization={Springer}
+}
 
 ## Contacts
 If you have any questions or you would like us to provide you with more data, seed genes or any other resources, please reach us through our emails:
