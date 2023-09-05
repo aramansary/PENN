@@ -1,5 +1,5 @@
 # PENN (DBB2023)
-Phase Estimation Neural Network on Gene Expression Data ([PENN](https://www.researchgate.net/publication/372093452_PENN_Phase_Estimation_Neural_Network_on_Gene_Expression_Data)) is a deep learning based method designed for the prediction of unordered gene expression data. 
+Phase Estimation Neural Network on Gene Expression Data ([PENN](https://link.springer.com/chapter/10.1007/978-3-031-42317-8_5)) is a deep learning based method designed for the prediction of unordered gene expression data. 
 The architecture of this network is based on the CYCLOPS. However, PENN incorporates the potential periodic oscillation information of the cyclic genes into the objective function to regulate the phase estimation.
 
 PENN's inroduced loss function has two parts. The first part of the equation is the error of fitting observations with the cosine curve using predicted phases considering each gene's geometry. The second part of the loss function is the auto-encoder reconstruction loss.
